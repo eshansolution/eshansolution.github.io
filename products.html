@@ -38,23 +38,25 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <!-- header-area start -->
-    <header class="header-area">
+       <!-- header-area start -->
+       <header class="header-area" id="header">
         <div class="header-top">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-12">
                         <div class="header-top-left">
                             <ul class="d-flex">
-                                <li><span class="icon"><i class="fa fa-phone"></i></span><span>+001-1234-88888 </span>info.deercreative@gmail.com</li>
-                                <li><span class="icon"><i class="fa fa-map-marker"></i></span><span>40 Baria Sreet 133/2 </span>NewYork City, US</li>
+                                <li><span class="icon"><i class="fa fa-phone"></i></span><span>+88 01777-717-598
+                                    </span>ehsan.majid9@gmail.com</li>
+                                <li><span class="icon"><i class="fa fa-map-marker"></i></span><span>B11, Ambient
+                                        Building- </span>Baridhara, Dhaka,Bangladesh</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-5 col-12">
                         <div class="socil-icon">
                             <ul class="d-flex">
-                                <li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a></li>
                                 <li><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
@@ -65,32 +67,34 @@
                 </div>
             </div>
         </div>
-        <div class="header-bottom">
+        <div class="header-bottom fixed-top" id="mainNav">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-8 col-sm-7 col-10">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="http://localhost:8080/wordpress">
                                 <img src="assets/images/logo.png" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-7  d-none d-lg-block">
-                            <div class="mainmenu">
-                                    <ul class="d-flex">
-                                        <li class="active"><a href="index.html">Home</a></li>
-                                        <li class="active"><a href="products.html">Products</a></li>
-                                        <li><a href="javascript:void(0);">service <i class="fa fa-angle-down"></i></a>
-                                            <ul>
-                                                <li><a href="service.html">Services</a></li>
-                                                <li><a href="service-details.html">Service Details</a></li>
-                                                <li><a href="mission.html">Our Mission & Vission</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="clients.html">Clients</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                        <div class="mainmenu">
+                            <ul class="d-flex">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li class="active"><a href="products.html">Products</a></li>
+                                <li><a href="javascript:void(0);">service <i class="fa fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="service.html">Services</a></li>
+                                        <!-- <li><a href="service-details.html">Service Details</a></li>
+                                        <li><a href="mission.html">Our Mission & Vission</a></li> -->
                                     </ul>
-                                </div>
+                                </li>
+                                
+
+                                <li><a href="clients.html">Clients</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 d-none d-sm-block">
                         <div class="get-quote">
@@ -113,36 +117,23 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 d-block d-lg-none">
-                            <ul class="metismenu">
-                                <li class="sidemenu-items"><a aria-expanded="false" href="index.html">Home</a></li>
-                                <li class="sidemenu-items"><a class="has-arrow" aria-expanded="false" href="javascript:void(0);">Service </a>
-                                    <ul aria-expanded="false">
-                                        <li><a href="service.html">Service Page</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="sidemenu-items"><a class="has-arrow" aria-expanded="false" href="javascript:void(0);">Pages </a>
-                                    <ul aria-expanded="false">
-                                        <li><a href="team.html">Team Page</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="project.html">project Page</a></li>
-                                        <li><a href="project-details.html">project Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="sidemenu-items"><a class="has-arrow" aria-expanded="false" href="javascript:void(0);">project </a>
-                                    <ul aria-expanded="false">
-                                        <li><a href="project.html">project Page</a></li>
-                                        <li><a href="project-details.html">project Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="sidemenu-items"><a class="has-arrow" aria-expanded="false" href="javascript:void(0);">Blog</a>
-                                    <ul aria-expanded="false">
-                                        <li><a href="blog.html">Blog Page</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
+                            <div class="mainmenu">
+                                <ul class="d-flex">
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li class="active"><a href="products.html">Products</a></li>
+                                    <li><a href="javascript:void(0);">service <i class="fa fa-angle-down"></i></a>
+                                        <ul>
+                                            <li><a href="service.html">Services</a></li>
+                                            <!-- <li><a href="service-details.html">Service Details</a></li>
+                                            <li><a href="mission.html">Our Mission & Vission</a></li> -->
+                                        </ul>
+                                    </li>
+                                    
+    
+                                    <li><a href="clients.html">Clients</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -151,8 +142,8 @@
         </div>
     </header>
     <!-- header-area end -->
-    <!-- breadcumb-area start -->
-    <div class="breadcumb-area black-opacity">
+      <!-- breadcumb-area start -->
+      <div class="breadcumb-area black-opacity">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -181,81 +172,198 @@
                     <div class="row mt-2">
                         <button data-filter=".cat5 ">Clothing</button>
                         <button data-filter=".cat6 ">Machinery</button>
-                        <button data-filter=".cat6 ">Helicoptor Parts</button>
-                        <button data-filter=".cat6 ">Car Spare parts</button>
+                        <button data-filter=".cat7 ">Helicoptor Parts</button>
+                        <button data-filter=".cat8 ">Car Spare parts</button>
                     </div>
                     </div>
                 </div>
             </div>
             <div class="row grid fix ">
-                <div class="col-lg-4 col-sm-6 col-12 project cat2 cat3 ">
+               
+                <div class="col-lg-4 col-sm-6 col-12 project cat4 ">
                     <div class="project-wrap ">
-                        <img src="assets/images/project/1.jpg " alt=" ">
+                        <img src="assets/images/service/v.jpg " alt=" ">
                         <ul>
-                            <li><a href="assets/images/project/1.jpg " class="popup "><i class="fa fa-search "></i></a></li>
-                            <li><a href="project-details.html "><i class="fa fa-link "></i></a></li>
+                            <li><a href="assets/images/service/v.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12 project cat3 cat4 ">
+                <div class="col-lg-4 col-sm-6 col-12 project cat4">
                     <div class="project-wrap ">
-                        <img src="assets/images/project/2.jpg " alt=" ">
+                        <img src="assets/images/service/v2.jpg " alt=" ">
                         <ul>
-                            <li><a href="assets/images/project/2.jpg " class="popup "><i class="fa fa-search "></i></a></li>
-                            <li><a href="project-details.html "><i class="fa fa-link "></i></a></li>
+                            <li><a href="assets/images/service/v2.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12 project cat4 cat2">
+                <div class="col-lg-4 col-sm-6 col-12 project cat4">
                     <div class="project-wrap ">
-                        <img src="assets/images/project/3.jpg " alt=" ">
+                        <img src="assets/images/service/v3.jpg " alt=" ">
                         <ul>
-                            <li><a href="assets/images/project/3.jpg " class="popup "><i class="fa fa-search "></i></a></li>
-                            <li><a href="project-details.html "><i class="fa fa-link "></i></a></li>
+                            <li><a href="assets/images/service/v3.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12 project cat1 cat2">
+                <div class="col-lg-4 col-sm-6 col-12 project cat1">
                     <div class="project-wrap ">
-                        <img src="assets/images/project/5.jpg " alt=" ">
+                        <img src="assets/images/service/t.jpg" alt=" ">
                         <ul>
-                            <li><a href="assets/images/project/5.jpg " class="popup "><i class="fa fa-search "></i></a></li>
-                            <li><a href="project-details.html "><i class="fa fa-link "></i></a></li>
+                            <li><a href="assets/images/service/t.jpg" class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12 project cat3 cat1">
+                <div class="col-lg-4 col-sm-6 col-12 project cat1">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/t2.jpg" alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/t2.jpg" class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat1">
                     <div class="project-wrap ">
                         <img src="assets/images/project/4.jpg " alt=" ">
                         <ul>
                             <li><a href="assets/images/project/4.jpg " class="popup "><i class="fa fa-search "></i></a></li>
-                            <li><a href="project-details.html "><i class="fa fa-link "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12 project cat2 cat4">
+                <div class="col-lg-4 col-sm-6 col-12 project cat5">
                     <div class="project-wrap ">
-                        <img src="assets/images/project/6.jpg " alt=" ">
+                        <img src="assets/images/service/c.jpg " alt=" ">
                         <ul>
-                            <li><a href="assets/images/project/6.jpg " class="popup "><i class="fa fa-search "></i></a></li>
-                            <li><a href="project-details.html "><i class="fa fa-link "></i></a></li>
+                            <li><a href="assets/images/service/c.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 col-12 project cat5 cat6">
-                        <div class="project-wrap ">
-                            <img src="assets/images/project/6.jpg " alt=" ">
-                            <ul>
-                                <li><a href="assets/images/project/6.jpg " class="popup "><i class="fa fa-search "></i></a></li>
-                                <li><a href="project-details.html "><i class="fa fa-link "></i></a></li>
-                            </ul>
-                        </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat5">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/c2.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/c2.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
                     </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat5">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/c3.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/c3.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat3">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/m.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="#"><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat3">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/m2.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m2.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat3">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/m3.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m3.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat6">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/mc.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m2.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat6">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/mc2.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m3.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat8">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/csp.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m2.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat8">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/csp2.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m3.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat7">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/h.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m3.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat7">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/h2.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m3.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat2">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/gsp.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m3.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 project cat2">
+                    <div class="project-wrap ">
+                        <img src="assets/images/service/gsp2.jpg " alt=" ">
+                        <ul>
+                            <li><a href="assets/images/service/m3.jpg " class="popup "><i class="fa fa-search "></i></a></li>
+                            <li><a href="# "><i class="fa fa-link "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- project-area end -->
-    <!-- footer-area start  -->
     <footer class=" footer-area ">
             <div class=" footer-top ">
                 <div class=" container ">
