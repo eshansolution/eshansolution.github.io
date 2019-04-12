@@ -37,8 +37,8 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <!-- header-area start -->
-    <header class="header-area">
+      <!-- header-area start -->
+      <header class="header-area" id="header">
         <div class="header-top">
             <div class="container">
                 <div class="row">
@@ -55,7 +55,7 @@
                     <div class="col-lg-5 col-12">
                         <div class="socil-icon">
                             <ul class="d-flex">
-                                <li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a></li>
                                 <li><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
@@ -71,7 +71,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-8 col-sm-7 col-10">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="http://localhost:8080/wordpress">
                                 <img src="assets/images/logo.png" alt="">
                             </a>
                         </div>
@@ -84,10 +84,12 @@
                                 <li><a href="javascript:void(0);">service <i class="fa fa-angle-down"></i></a>
                                     <ul>
                                         <li><a href="service.html">Services</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                        <li><a href="mission.html">Our Mission & Vission</a></li>
+                                        <!-- <li><a href="service-details.html">Service Details</a></li>
+                                        <li><a href="mission.html">Our Mission & Vission</a></li> -->
                                     </ul>
                                 </li>
+                                
+
                                 <li><a href="clients.html">Clients</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -114,40 +116,23 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 d-block d-lg-none">
-                            <ul class="metismenu">
-                                <li class="sidemenu-items"><a aria-expanded="false" href="index.html">Home</a></li>
-                                <li class="sidemenu-items"><a class="has-arrow" aria-expanded="false"
-                                        href="javascript:void(0);">Service </a>
-                                    <ul aria-expanded="false">
-                                        <li><a href="service.html">Service Page</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="sidemenu-items"><a class="has-arrow" aria-expanded="false"
-                                        href="javascript:void(0);">Pages </a>
-                                    <ul aria-expanded="false">
-                                        <li><a href="team.html">Team Page</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="project.html">Project Page</a></li>
-                                        <li><a href="project-details.html">Project Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="sidemenu-items"><a class="has-arrow" aria-expanded="false"
-                                        href="javascript:void(0);">Project </a>
-                                    <ul aria-expanded="false">
-                                        <li><a href="project.html">Project Page</a></li>
-                                        <li><a href="project-details.html">Project Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="sidemenu-items"><a class="has-arrow" aria-expanded="false"
-                                        href="javascript:void(0);">Blog</a>
-                                    <ul aria-expanded="false">
-                                        <li><a href="blog.html">Blog Page</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
+                            <div class="mainmenu">
+                                <ul class="d-flex">
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li class="active"><a href="products.html">Products</a></li>
+                                    <li><a href="javascript:void(0);">service <i class="fa fa-angle-down"></i></a>
+                                        <ul>
+                                            <li><a href="service.html">Services</a></li>
+                                            <!-- <li><a href="service-details.html">Service Details</a></li>
+                                            <li><a href="mission.html">Our Mission & Vission</a></li> -->
+                                        </ul>
+                                    </li>
+                                    
+    
+                                    <li><a href="clients.html">Clients</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -167,7 +152,7 @@
                                 <div class=" col-lg-8 ">
                                     <div class=" slider-content ">
                                         <h2  data-swiper-parallax=" -300 ">Welcome to Key Solutions Limited</span></h2>
-                                        <p  data-swiper-parallax=" -200 ">We believe numbers without meaning are useless. Our mission is to become your trusted business advisor. Our Certified Accountants are passionate about your success.</p>
+                                        <p  data-swiper-parallax=" -200 ">Our mission is to help Bangladeshi communities, industries & business people find out right sources at the right time for their need.</p>
                                         <ul>
                                             <li><a href=" service.html ">Our Service</a></li>
                                             <li><a href=" contact.html ">Contact us</a></li>
@@ -203,7 +188,7 @@
                                 <div class=" col-lg-8 ">
                                     <div class=" slider-content ">
                                         <h2 data-swiper-parallax=" -300 ">Welcome to Key Solutions Limited</span></h2>
-                                        <p data-swiper-parallax=" -200 ">We believe numbers without meaning are useless. Our mission is to become your trusted business advisor. Our Certified Accountants are passionate about your success.</p>
+                                        <p data-swiper-parallax=" -200 ">We have a wide vision to become a pioneer supplier of Bangladesh Defence & to provide superior value to our clients thus serving the country as a whole.</p>
                                         <ul>
                                             <li><a href=" service.html ">Our Service</a></li>
                                             <li><a href=" contact.html ">Contact us</a></li>
