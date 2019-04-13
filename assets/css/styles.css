@@ -59,6 +59,7 @@ img {
     max-width: 100%;
     height: auto
 }
+
 .fix {
     overflow: hidden
 }
@@ -258,7 +259,11 @@ a#scrollUp:hover {
     -moz-transform: rotate(-45deg);
 }
 .logo {
-    padding: 22px 0;
+    
+}
+.logo img{
+    max-width: 42%;
+    height: auto;
 }
 .mainmenu ul {
     -webkit-box-pack: end;
@@ -442,12 +447,21 @@ a#scrollUp:hover {
 }
 .slide-inner1 {
     background: url(../images/slider/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .slide-inner2 {
     background: url(../images/slider/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .slide-inner3 {
     background: url(../images/slider/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .slider-content h2 {
     font-size: 45px;
@@ -1820,4 +1834,12 @@ ol {
 }
 .client-text{
     color: #fff;
+}
+
+.service-text p{
+    margin: 13px;
+    font-size: 23px;
+    color: black;
+    font-style: unset;
+    font-family: -webkit-body;
 }
